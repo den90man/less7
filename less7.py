@@ -87,10 +87,10 @@ class Count:
             line += f'{"*" * count_line} \\n'
         line += f'{"*" * (self.quantity % count_line)}'
         return line
-count1 = Count(33)
-count2 = Count(3)
+count1 = Count(43)
+count2 = Count(2)
 print(count1)
-print(count2.make_order(4))
-print(count1.make_order(10))
+print(count2.make_order(5))
+print(count1.make_order(7))
 print(count1 / count2)
 print(count1*count2)
